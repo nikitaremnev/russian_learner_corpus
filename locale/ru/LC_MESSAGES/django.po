@@ -371,9 +371,61 @@ msgstr "португальский"
 msgid "Dagestanian"
 msgstr "дагестанский"
 
-#: annotator/models.py:215 templates/search/search.html:309
+#: annotator/models.py:215 templates/search/search.html:310
 msgid "Tajik"
 msgstr "таджикский"
+
+#: annotator/models.py:216 templates/search/search.html:311
+msgid "Farsi"
+msgstr "персидский"
+
+#: annotator/models.py templates/search/search.html
+msgid "Indonesian"
+msgstr "индонезийский"
+
+#: annotator/models.py templates/search/search.html
+msgid "Mongolian"
+msgstr "монгольский"
+
+#: annotator/models.py templates/search/search.html
+msgid "Bengali"
+msgstr "бенгальский"
+
+#: annotator/models.py templates/search/search.html
+msgid "Hebrew"
+msgstr "иврит"
+
+#: annotator/models.py templates/search/search.html
+msgid "Turkish"
+msgstr "турецкий"
+
+#: annotator/models.py templates/search/search.html
+msgid "Uzbek"
+msgstr "узбекский"
+
+#: annotator/models.py templates/search/search.html
+msgid "Hindi"
+msgstr "хинди"
+
+#: annotator/models.py templates/search/search.html
+msgid "Arabic"
+msgstr "арабский"
+
+#: annotator/models.py templates/search/search.html
+msgid "Vietnamese"
+msgstr "вьетнамский"
+
+#: annotator/models.py templates/search/search.html
+msgid "Bulgarian"
+msgstr "болгарский"
+
+#: annotator/models.py templates/search/search.html
+msgid "Macedonian"
+msgstr "македонский"
+
+#: annotator/models.py templates/search/search.html
+msgid "Croatian"
+msgstr "xорватский"
 
 #: annotator/models.py:218
 msgid "dominant language"
