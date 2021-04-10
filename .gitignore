@@ -3,10 +3,6 @@
 venv/
 t.txt
 
-# Sensitive stuff
-.secure.settings.json
-mystem*
-
 # Django related
 public/
 

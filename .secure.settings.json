@@ -1,0 +1,15 @@
+{
+  "SECRET_KEY": "2dn3pwoee6_%os$(5$lo6ob6cc09m1e2l8wiowu0ai6&oc7*i2",
+
+  "DEBUG": false,
+
+  "PROD_DATABASES_USER": "webcorpo_corpora",
+  "PROD_DATABASES_PASSWORD": "yedLurt3",
+  "PROD_DATABASES_NAME": "heritage_corpus",
+
+  "DEV_DATABASES_USER": "root",
+  "DEV_DATABASES_PASSWORD": "314a15a926",
+  "DEV_DATABASES_NAME": "corpus",
+
+  "DEV_PATH_TO_MYSTEM": "C:/Users/Admin/OneDrive/PycharmProjects/heritage_corpus/mystem.exe"
+}
