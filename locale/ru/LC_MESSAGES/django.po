@@ -439,11 +439,11 @@ msgstr "лаосский"
 msgid "Spanish"
 msgstr "испанский"
 
-#: annotator/models.py templates/search/search.html
+#: annotator/models.py:203 templates/search/search.html:358
 msgid "Pashto"
 msgstr "пушту"
 
-#: annotator/models.py templates/search/search.html
+#: annotator/models.py:233 templates/search/search.html:360
 msgid "Dari"
 msgstr "дари"
 
