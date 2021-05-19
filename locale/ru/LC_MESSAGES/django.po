@@ -455,6 +455,10 @@ msgstr "албанский"
 msgid "Shona"
 msgstr "шона"
 
+#: annotator/models.py templates/search/search.html
+msgid "Czech"
+msgstr "чешский"
+
 #: annotator/models.py:218
 msgid "dominant language"
 msgstr "доминантный язык"

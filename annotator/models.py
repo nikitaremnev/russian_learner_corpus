@@ -232,7 +232,8 @@ class Document(models.Model):
                      (u'pas', _(u'Pashto')),
                      (u'dar', _(u'Dari')),
                      (u'alb', _(u'Albanian')),
-                     (u'sho', _(u'Shona'))
+                     (u'sho', _(u'Shona')),
+                     (u'sho', _(u'Czech'))
                      )
     native = models.CharField(max_length=10, null=True, blank=False,
                               choices=NativeChoices, db_index=True,
