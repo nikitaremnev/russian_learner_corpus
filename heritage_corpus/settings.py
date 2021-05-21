@@ -31,7 +31,7 @@ DEBUG = SECRET["DEBUG"]
 TEMPLATE_DEBUG = DEBUG
 
 # Identifies whether the code is running in prod
-PROD = '/home/nremnev' in BASE_DIR
+PROD = '/home/elmira' in BASE_DIR
 
 
 if PROD:
