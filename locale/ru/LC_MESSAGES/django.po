@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-28 17:06+0000\n"
+"POT-Creation-Date: 2021-05-21 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,579 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: annotator/admin.py:15 annotator/models.py:60
-msgid "owner"
-msgstr "создатель"
-
-#: annotator/models.py:61
-msgid ""
-"This is the corpus user who uploads the text to the corpus.Please, make sure "
-"that this field displays your login."
-msgstr ""
-
-#: annotator/models.py:69
-msgid "title"
-msgstr "название"
-
-#: annotator/models.py:73
-msgid "Paste the text here."
-msgstr "Скопируйте в это поле текст"
-
-#: annotator/models.py:73
-msgid "text"
-msgstr "текст"
-
-#: annotator/models.py:77
-msgid "Enter author's first and/or  second name."
-msgstr "Введите имя автора"
-
-#: annotator/models.py:78
-msgid "author"
-msgstr "автор"
-
-#: annotator/models.py:81 templates/search/search.html:260
-msgid "written"
-msgstr "письменный"
-
-#: annotator/models.py:81 templates/search/search.html:259
-msgid "oral"
-msgstr "устный"
-
-#: annotator/models.py:83
-msgid "mode"
-msgstr "тип текста"
-
-#: annotator/models.py:87
-msgid ""
-"Name, surname and affiliation (institute, university orlanguage school) of a "
-"person who provided the text"
-msgstr ""
-
-#: annotator/models.py:89
-msgid "Source"
-msgstr "источник текста"
-
-#: annotator/models.py:99
-msgid "subcorpus"
-msgstr "подкорпус"
-
-#: annotator/models.py:105
-msgid "When the text was written, e.g. 2014."
-msgstr "Когда текст был написан"
-
-#: annotator/models.py:105 news/models.py:11
-msgid "date"
-msgstr "дата"
-
-#: annotator/models.py:111
-msgid "Answers to questions"
-msgstr "ответы на вопросы"
-
-#: annotator/models.py:112
-msgid "Non–academic essay"
-msgstr "неакадемическое эссе"
-
-#: annotator/models.py:113
-msgid "Academic essay"
-msgstr "академическое эссе"
-
-#: annotator/models.py:114
-msgid "Blog"
-msgstr "блог"
-
-#: annotator/models.py:115
-msgid "Letter"
-msgstr "письмо"
-
-#: annotator/models.py:116
-msgid "Story"
-msgstr "история"
-
-#: annotator/models.py:117
-msgid "Paraphrase"
-msgstr "пересказ"
-
-#: annotator/models.py:118
-msgid "Definition"
-msgstr "определение"
-
-#: annotator/models.py:119
-msgid "Biography"
-msgstr "биография"
-
-#: annotator/models.py:120
-msgid "Description"
-msgstr "описание"
-
-#: annotator/models.py:121
-msgid "Summary"
-msgstr "краткое изложение"
-
-#: annotator/models.py:122 annotator/models.py:167
-msgid "Other"
-msgstr "другое"
-
-#: annotator/models.py:125
-msgid "genre"
-msgstr "жанр"
-
-#: annotator/models.py:128
-msgid "female"
-msgstr "женский"
-
-#: annotator/models.py:128
-msgid "male"
-msgstr "мужской"
-
-#: annotator/models.py:130
-msgid "gender"
-msgstr "пол"
-
-#: annotator/models.py:131
-#, fuzzy
-#| msgid "Gender of author"
-msgid "Gender of the text author"
-msgstr "Пол автора"
-
-#: annotator/models.py:135
-msgid ""
-"Type and title of a language program (optinal field):<br>intensive vs "
-"regular course<br>Russian for heritage studentsvs Russian as a second "
-"language"
-msgstr ""
-
-#: annotator/models.py:138
-msgid "program"
-msgstr "курс"
-
-#: annotator/models.py:141 templates/search/search.html:274
-msgid "heritage"
-msgstr "эритажный"
-
-#: annotator/models.py:141 templates/search/search.html:273
-msgid "foreign"
-msgstr "иностранный"
-
-#: annotator/models.py:143
-msgid "language background"
-msgstr "русский язык"
-
-#: annotator/models.py:145
-msgid "Heritage speaker or second language learner"
-msgstr ""
-
-#: annotator/models.py:148
-msgid "type of text"
-msgstr "тип текста"
-
-#: annotator/models.py:153 templates/search/search.html:340
-msgid "Novice High"
-msgstr ""
-
-#: annotator/models.py:153 templates/search/search.html:338
-msgid "Novice Low"
-msgstr ""
-
-#: annotator/models.py:154 templates/search/search.html:339
-msgid "Novice Middle"
-msgstr ""
-
-#: annotator/models.py:155 templates/search/search.html:334
-msgid "A1"
-msgstr ""
-
-#: annotator/models.py:155 templates/search/search.html:335
-msgid "A2"
-msgstr ""
-
-#: annotator/models.py:158 templates/search/search.html:352
-msgid "Intermediate High"
-msgstr ""
-
-#: annotator/models.py:158 templates/search/search.html:350
-msgid "Intermediate Low"
-msgstr ""
-
-#: annotator/models.py:159 templates/search/search.html:351
-msgid "Intermediate Middle"
-msgstr ""
-
-#: annotator/models.py:159 templates/search/search.html:346
-msgid "B1"
-msgstr ""
-
-#: annotator/models.py:160 templates/search/search.html:347
-msgid "B2"
-msgstr ""
-
-#: annotator/models.py:163 templates/search/search.html:364
-msgid "Advanced High"
-msgstr ""
-
-#: annotator/models.py:163 templates/search/search.html:362
-msgid "Advanced Low"
-msgstr ""
-
-#: annotator/models.py:164 templates/search/search.html:363
-msgid "Advanced Middle"
-msgstr ""
-
-#: annotator/models.py:164 templates/search/search.html:358
-msgid "C1"
-msgstr ""
-
-#: annotator/models.py:165 templates/search/search.html:359
-msgid "C2"
-msgstr ""
-
-#: annotator/models.py:172
-#, fuzzy
-#| msgid ""
-#| "Enter the language level of the author. Both CEFR and ACTFL scales are "
-#| "available.</br>Please, use the option 'Other' if neither CEFR nor ACTFL "
-#| "scales are applicable."
-msgid ""
-"Enter the language level of the author. Both CEFR and ACTFL scales "
-"areavailable.</br>Please, use the option 'Other' if neither CEFR nor "
-"ACTFLscales are applicable."
-msgstr ""
-"Введите уровень автора по шкале CEFR или ACTFL.</br>Используйте опцию "
-"'Other', </br>если ни шкала CEFR, ни ACTFL не применимы."
-
-#: annotator/models.py:175
-msgid "scale"
-msgstr "шкала"
-
-#: annotator/models.py:178 templates/search/search.html:332
-msgid "Beginner"
-msgstr ""
-
-#: annotator/models.py:179 templates/search/search.html:344
-msgid "Intermediate"
-msgstr ""
-
-#: annotator/models.py:180 templates/search/search.html:356
-#, fuzzy
-#| msgid "distance"
-msgid "Advanced"
-msgstr "расстоянию"
-
-#: annotator/models.py:183
-msgid "level"
-msgstr "уровень"
-
-#: annotator/models.py:186 annotator/models.py:424
-msgid "annotation"
-msgstr "аннотация"
-
-#: annotator/models.py:189
-msgid "student code"
-msgstr "код студента"
-
-#: annotator/models.py:190
-msgid ""
-"Pseudonym or code of the author (it is used instead of a realname in order "
-"to ensure the anonymity of the authors)"
-msgstr ""
-
-#: annotator/models.py:194
-msgid "limited"
-msgstr ""
-
-#: annotator/models.py:194
-msgid "unlimited"
-msgstr ""
-
-#: annotator/models.py:196
-msgid "time limit"
-msgstr "временные ограничения"
-
-#: annotator/models.py:199 heritage_corpus/settings.py:105
-#: templates/search/search.html:291
-msgid "English"
-msgstr "английский"
-
-#: annotator/models.py:200 templates/search/search.html:293
-msgid "Norwegian"
-msgstr "норвежский"
-
-#: annotator/models.py:201 templates/search/search.html:302
-msgid "Korean"
-msgstr "корейский"
-
-#: annotator/models.py:202 templates/search/search.html:292
-msgid "Italian"
-msgstr "итальянский"
-
-#: annotator/models.py:203 templates/search/search.html:303
-msgid "French"
-msgstr "французский"
-
-#: annotator/models.py:204 templates/search/search.html:304
-msgid "German"
-msgstr "немецкий"
-
-#: annotator/models.py:205 templates/search/search.html:305
-msgid "Serbian"
-msgstr "сербский"
-
-#: annotator/models.py:206 templates/search/search.html:294
-msgid "Japanese"
-msgstr "японский"
-
-#: annotator/models.py:207 templates/search/search.html:306
-msgid "Chinese"
-msgstr "китайский"
-
-#: annotator/models.py:208 templates/search/search.html:295
-msgid "Kazakh"
-msgstr "казахский"
-
-#: annotator/models.py:209 templates/search/search.html:307
-msgid "Dutch"
-msgstr "нидерландский"
-
-#: annotator/models.py:210 templates/search/search.html:296
-msgid "Swedish"
-msgstr "шведский"
-
-#: annotator/models.py:211 templates/search/search.html:308
-msgid "Finnish"
-msgstr "финский"
-
-#: annotator/models.py:212 templates/search/search.html:297
-msgid "Estonian"
-msgstr "эстонский"
-
-#: annotator/models.py:213 templates/search/search.html:298
-msgid "Portuguese"
-msgstr "португальский"
-
-#: annotator/models.py:214 templates/search/search.html:309
-msgid "Dagestanian"
-msgstr "дагестанский"
-
-#: annotator/models.py:215 templates/search/search.html:310
-msgid "Tajik"
-msgstr "таджикский"
-
-#: annotator/models.py:216 templates/search/search.html:311
-msgid "Farsi"
-msgstr "персидский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Indonesian"
-msgstr "индонезийский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Mongolian"
-msgstr "монгольский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Bengali"
-msgstr "бенгальский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Hebrew"
-msgstr "иврит"
-
-#: annotator/models.py templates/search/search.html
-msgid "Turkish"
-msgstr "турецкий"
-
-#: annotator/models.py templates/search/search.html
-msgid "Uzbek"
-msgstr "узбекский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Hindi"
-msgstr "хинди"
-
-#: annotator/models.py templates/search/search.html
-msgid "Arabic"
-msgstr "арабский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Vietnamese"
-msgstr "вьетнамский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Bulgarian"
-msgstr "болгарский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Macedonian"
-msgstr "македонский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Croatian"
-msgstr "xорватский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Thai"
-msgstr "тайский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Lao"
-msgstr "лаосский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Spanish"
-msgstr "испанский"
-
-#: annotator/models.py:203 templates/search/search.html:358
-msgid "Pashto"
-msgstr "пушту"
-
-#: annotator/models.py:233 templates/search/search.html:360
-msgid "Dari"
-msgstr "дари"
-
-#: annotator/models.py templates/search/search.html
-msgid "Albanian"
-msgstr "албанский"
-
-#: annotator/models.py templates/search/search.html
-msgid "Shona"
-msgstr "шона"
-
-#: annotator/models.py templates/search/search.html
-msgid "Czech"
-msgstr "чешский"
-
-#: annotator/models.py:218
-msgid "dominant language"
-msgstr "доминантный язык"
-
-#: annotator/models.py:219
-#, fuzzy
-#| msgid "dominant language"
-msgid "Author's dominant language"
-msgstr "доминантный язык"
-
-#: annotator/models.py:223
-msgid "full metadata"
-msgstr "метаданные заполнены"
-
-#: annotator/models.py:227 templates/search/result.html:61
-#: templates/search/result.html.py:64
-msgid "words"
-msgstr "слова"
-
-#: annotator/models.py:230 annotator/models.py:361
-#: templates/search/result.html:61 templates/search/result.html.py:64
-msgid "sentences"
-msgstr "предложения"
-
-#: annotator/models.py:234
-msgid "date displayed"
-msgstr "отображаемая дата"
-
-#: annotator/models.py:239
-msgid "text is annotated"
-msgstr "текст размечен"
-
-#: annotator/models.py:242
-msgid "text is checked"
-msgstr "текст проверен"
-
-#: annotator/models.py:245
-msgid "document"
-msgstr "документ"
-
-#: annotator/models.py:246 templates/search/result.html:61
-#: templates/search/result.html.py:64 templates/search/result.html:67
-msgid "documents"
-msgstr "документы"
-
-#: annotator/models.py:360
-msgid "sentence"
-msgstr "предложение"
-
-#: annotator/models.py:425
-msgid "annotations"
-msgstr "аннотации"
-
-#: annotator/models.py:671
-msgid "token"
-msgstr "токен"
-
-#: annotator/models.py:672
-msgid "tokens"
-msgstr "токены"
-
-#: annotator/models.py:695
-msgid "analysis"
-msgstr "разбор"
-
-#: annotator/models.py:696
-msgid "analyses"
-msgstr "разборы"
-
-#: heritage_corpus/settings.py:104
-msgid "Russian"
-msgstr "русский"
-
-#: news/models.py:11
-msgid "Please use the calendar view to choose date."
-msgstr "Используйте календарь, чтобы выбрать дату"
-
-#: news/models.py:14 news/models.py:29
-msgid "Please enter the news text in Russian."
-msgstr "Введите текст новости на русском языке"
-
-#: news/models.py:15 news/models.py:30
-msgid "text in Russian"
-msgstr "текст на русском языке"
-
-#: news/models.py:16 news/models.py:31
-msgid "Please enter the news text in English."
-msgstr "Введите текст новости на английском языке"
-
-#: news/models.py:17 news/models.py:32
-msgid "text in English"
-msgstr "текст на английском"
-
-#: news/models.py:23
-msgid "article"
-msgstr "статья"
-
-#: news/models.py:24
-msgid "articles"
-msgstr "статьи"
-
-#: news/models.py:33
-msgid "Enter the name of the section in Russian"
-msgstr "Введите текст на русском языке"
-
-#: news/models.py:34
-msgid "name in Russian"
-msgstr "название на русском языке"
-
-#: news/models.py:35
-msgid "Enter the name of the section in English"
-msgstr "Введите текст на английском языке"
-
-#: news/models.py:36
-msgid "name in English"
-msgstr "название на английском языке"
-
-#: news/models.py:37
-msgid "Please enter the number of the entry on the page"
-msgstr "Введите номер секции на странице"
-
-#: news/models.py:38
-msgid "entry number"
-msgstr "номер секции"
-
-#: news/models.py:41
-msgid "section"
-msgstr "секция"
-
-#: news/models.py:42
-msgid "sections"
-msgstr "секции"
 
 #: templates/admin/base.html:30 templates/base.html:116
 msgid "Main"
@@ -712,11 +139,11 @@ msgstr "Выберите разметчика:"
 msgid "Not annotated"
 msgstr "Не размечено"
 
-#: templates/annotator/annotate_list.html:258
+#: templates/annotator/annotate_list.html:256
 msgid "Annotated, not checked"
 msgstr "Размечено, не проверено"
 
-#: templates/annotator/annotate_list.html:370
+#: templates/annotator/annotate_list.html:366
 msgid "Annotated, checked"
 msgstr "Размечено, проверено"
 
@@ -939,17 +366,17 @@ msgstr "Морфологические ошибки"
 msgid "Additional tags"
 msgstr "Дополнительные пометы"
 
+#: templates/search/errsel.html:111
+msgid "Any error"
+msgstr "Любая ошибка"
+
 #: templates/search/errsel.html:119
 msgid "Syntax errors"
 msgstr "Синтаксические ошибки"
 
-#: templates/search/errsel.html:7
+#: templates/search/errsel.html:151
 msgid "All errors at once"
 msgstr "Все ошибки"
-
-#: templates/search/errsel.html:111
-msgid "Any error"
-msgstr "Любая ошибка"
 
 #: templates/search/gramsel.html:7
 msgid "GRAMMATICAL TAGS"
@@ -1299,6 +726,19 @@ msgstr "Результат"
 msgid "Corpus total"
 msgstr "Всего в корпусе"
 
+#: templates/search/result.html:61 templates/search/result.html.py:64
+#: templates/search/result.html:67
+msgid "documents"
+msgstr "документы"
+
+#: templates/search/result.html:61 templates/search/result.html.py:64
+msgid "sentences"
+msgstr "предложения"
+
+#: templates/search/result.html:61 templates/search/result.html.py:64
+msgid "words"
+msgstr "слова"
+
 #: templates/search/result.html:64
 msgid "Search executed in a user-defined subcorpus of"
 msgstr "Поиск выполнен по пользовательсокму корпусу из"
@@ -1421,9 +861,25 @@ msgstr "любой"
 msgid "Text mode"
 msgstr "Тип текста"
 
+#: templates/search/search.html:259
+msgid "oral"
+msgstr "устный"
+
+#: templates/search/search.html:260
+msgid "written"
+msgstr "письменный"
+
 #: templates/search/search.html:269 templates/stats.html:106
 msgid "Language background"
 msgstr "Русский язык"
+
+#: templates/search/search.html:273
+msgid "foreign"
+msgstr "иностранный"
+
+#: templates/search/search.html:274
+msgid "heritage"
+msgstr "эритажный"
 
 #: templates/search/search.html:285
 msgid "Dominant language"
@@ -1433,46 +889,272 @@ msgstr "Доминантный язык"
 msgid "Check All"
 msgstr "Выделить все"
 
-#: templates/search/search.html:321 templates/search/search.html.py:327
+#: templates/search/search.html:292
+msgid "English"
+msgstr "английский"
+
+#: templates/search/search.html:294
+msgid "Italian"
+msgstr "итальянский"
+
+#: templates/search/search.html:296
+msgid "Norwegian"
+msgstr "норвежский"
+
+#: templates/search/search.html:298
+msgid "Japanese"
+msgstr "японский"
+
+#: templates/search/search.html:300
+msgid "Kazakh"
+msgstr "казахский"
+
+#: templates/search/search.html:302
+msgid "Swedish"
+msgstr "шведский"
+
+#: templates/search/search.html:304
+msgid "Estonian"
+msgstr "эстонский"
+
+#: templates/search/search.html:306
+msgid "Portuguese"
+msgstr "португальский"
+
+#: templates/search/search.html:308
+msgid "Hindi"
+msgstr "хинди"
+
+#: templates/search/search.html:310
+msgid "Arabic"
+msgstr "арабский"
+
+#: templates/search/search.html:312
+msgid "Vietnamese"
+msgstr "вьетнамский"
+
+#: templates/search/search.html:314
+msgid "Bulgarian"
+msgstr "болгарский"
+
+#: templates/search/search.html:316
+msgid "Macedonian"
+msgstr "македонский"
+
+#: templates/search/search.html:318
+msgid "Croatian"
+msgstr "xорватский"
+
+#: templates/search/search.html:320
+msgid "Thai"
+msgstr "тайский"
+
+#: templates/search/search.html:322
+msgid "Lao"
+msgstr "лаосский"
+
+#: templates/search/search.html:324
+msgid "Spanish"
+msgstr "испанский"
+
+#: templates/search/search.html:328
+msgid "Korean"
+msgstr "корейский"
+
+#: templates/search/search.html:329
+msgid "French"
+msgstr "французский"
+
+#: templates/search/search.html:330
+msgid "German"
+msgstr "немецкий"
+
+#: templates/search/search.html:331
+msgid "Serbian"
+msgstr "сербский"
+
+#: templates/search/search.html:333
+msgid "Chinese"
+msgstr "китайский"
+
+#: templates/search/search.html:335
+msgid "Dutch"
+msgstr "нидерландский"
+
+#: templates/search/search.html:337
+msgid "Finnish"
+msgstr "финский"
+
+#: templates/search/search.html:339
+msgid "Dagestanian"
+msgstr "дагестанский"
+
+#: templates/search/search.html:342
+msgid "Tajik"
+msgstr "таджикский"
+
+#: templates/search/search.html:344
+msgid "Farsi"
+msgstr "персидский"
+
+#: templates/search/search.html:346
+msgid "Indonesian"
+msgstr "индонезийский"
+
+#: templates/search/search.html:348
+msgid "Mongolian"
+msgstr "монгольский"
+
+#: templates/search/search.html:350
+msgid "Bengali"
+msgstr "бенгальский"
+
+#: templates/search/search.html:352
+msgid "Hebrew"
+msgstr "иврит"
+
+#: templates/search/search.html:354
+msgid "Turkish"
+msgstr "турецкий"
+
+#: templates/search/search.html:356
+msgid "Uzbek"
+msgstr "узбекский"
+
+#: templates/search/search.html:358
+msgid "Pashto"
+msgstr "пушту"
+
+#: templates/search/search.html:360
+msgid "Dari"
+msgstr "дари"
+
+#: templates/search/search.html:362
+msgid "Albanian"
+msgstr "албанский"
+
+#: templates/search/search.html:364
+msgid "Shona"
+msgstr "шона"
+
+#: templates/search/search.html:366
+msgid "Czech"
+msgstr "чешский"
+
+#: templates/search/search.html:377 templates/search/search.html.py:383
 msgid "Level"
 msgstr "Уровень"
 
-#: templates/search/search.html:321
+#: templates/search/search.html:377
 msgid ""
 "Each text in the corpus is attributed to one of the general levels: "
 "Beginner, Intermediate, Advanced. At the same time, some of these texts have "
 "a corresponding CEFR or ACTFL level."
 msgstr ""
 
-#: templates/search/search.html:328
+#: templates/search/search.html:384
 msgid "CEFR"
 msgstr ""
 
-#: templates/search/search.html:329
+#: templates/search/search.html:385
 msgid "ACTFL"
 msgstr ""
 
-#: templates/search/search.html:380
+#: templates/search/search.html:388
+msgid "Beginner"
+msgstr ""
+
+#: templates/search/search.html:390
+msgid "A1"
+msgstr ""
+
+#: templates/search/search.html:391
+msgid "A2"
+msgstr ""
+
+#: templates/search/search.html:394
+msgid "Novice Low"
+msgstr ""
+
+#: templates/search/search.html:395
+msgid "Novice Middle"
+msgstr ""
+
+#: templates/search/search.html:396
+msgid "Novice High"
+msgstr ""
+
+#: templates/search/search.html:400
+msgid "Intermediate"
+msgstr ""
+
+#: templates/search/search.html:402
+msgid "B1"
+msgstr ""
+
+#: templates/search/search.html:403
+msgid "B2"
+msgstr ""
+
+#: templates/search/search.html:406
+msgid "Intermediate Low"
+msgstr ""
+
+#: templates/search/search.html:407
+msgid "Intermediate Middle"
+msgstr ""
+
+#: templates/search/search.html:408
+msgid "Intermediate High"
+msgstr ""
+
+#: templates/search/search.html:412
+#, fuzzy
+#| msgid "distance"
+msgid "Advanced"
+msgstr "расстоянию"
+
+#: templates/search/search.html:414
+msgid "C1"
+msgstr ""
+
+#: templates/search/search.html:415
+msgid "C2"
+msgstr ""
+
+#: templates/search/search.html:418
+msgid "Advanced Low"
+msgstr ""
+
+#: templates/search/search.html:419
+msgid "Advanced Middle"
+msgstr ""
+
+#: templates/search/search.html:420
+msgid "Advanced High"
+msgstr ""
+
+#: templates/search/search.html:436
 msgid "Search only in RULEC"
 msgstr "Искать только в RULEC"
 
-#: templates/search/search.html:395
+#: templates/search/search.html:451
 msgid "Preferences"
 msgstr "Настройки"
 
-#: templates/search/search.html:399
+#: templates/search/search.html:455
 msgid "Output layout"
 msgstr "Формат вывода"
 
-#: templates/search/search.html:402
+#: templates/search/search.html:458
 msgid "full"
 msgstr "полный"
 
-#: templates/search/search.html:408
+#: templates/search/search.html:464
 msgid "Matches per page"
 msgstr "Предложений на странице"
 
-#: templates/search/search.html:421
+#: templates/search/search.html:477
 msgid "Sentences in expanded context"
 msgstr "Предложений в расширенном контексте"
 
@@ -1549,3 +1231,215 @@ msgstr "неизвестно"
 #: templates/stats.html:121
 msgid "Native language"
 msgstr "Доминантный язык"
+
+#~ msgid "owner"
+#~ msgstr "создатель"
+
+#~ msgid "title"
+#~ msgstr "название"
+
+#~ msgid "Paste the text here."
+#~ msgstr "Скопируйте в это поле текст"
+
+#~ msgid "text"
+#~ msgstr "текст"
+
+#~ msgid "Enter author's first and/or  second name."
+#~ msgstr "Введите имя автора"
+
+#~ msgid "author"
+#~ msgstr "автор"
+
+#~ msgid "mode"
+#~ msgstr "тип текста"
+
+#~ msgid "Source"
+#~ msgstr "источник текста"
+
+#~ msgid "subcorpus"
+#~ msgstr "подкорпус"
+
+#~ msgid "When the text was written, e.g. 2014."
+#~ msgstr "Когда текст был написан"
+
+#~ msgid "date"
+#~ msgstr "дата"
+
+#~ msgid "Answers to questions"
+#~ msgstr "ответы на вопросы"
+
+#~ msgid "Non–academic essay"
+#~ msgstr "неакадемическое эссе"
+
+#~ msgid "Academic essay"
+#~ msgstr "академическое эссе"
+
+#~ msgid "Blog"
+#~ msgstr "блог"
+
+#~ msgid "Letter"
+#~ msgstr "письмо"
+
+#~ msgid "Story"
+#~ msgstr "история"
+
+#~ msgid "Paraphrase"
+#~ msgstr "пересказ"
+
+#~ msgid "Definition"
+#~ msgstr "определение"
+
+#~ msgid "Biography"
+#~ msgstr "биография"
+
+#~ msgid "Description"
+#~ msgstr "описание"
+
+#~ msgid "Summary"
+#~ msgstr "краткое изложение"
+
+#~ msgid "Other"
+#~ msgstr "другое"
+
+#~ msgid "genre"
+#~ msgstr "жанр"
+
+#~ msgid "female"
+#~ msgstr "женский"
+
+#~ msgid "male"
+#~ msgstr "мужской"
+
+#~ msgid "gender"
+#~ msgstr "пол"
+
+#, fuzzy
+#~| msgid "Gender of author"
+#~ msgid "Gender of the text author"
+#~ msgstr "Пол автора"
+
+#~ msgid "program"
+#~ msgstr "курс"
+
+#~ msgid "language background"
+#~ msgstr "русский язык"
+
+#~ msgid "type of text"
+#~ msgstr "тип текста"
+
+#, fuzzy
+#~| msgid ""
+#~| "Enter the language level of the author. Both CEFR and ACTFL scales are "
+#~| "available.</br>Please, use the option 'Other' if neither CEFR nor ACTFL "
+#~| "scales are applicable."
+#~ msgid ""
+#~ "Enter the language level of the author. Both CEFR and ACTFL scales "
+#~ "areavailable.</br>Please, use the option 'Other' if neither CEFR nor "
+#~ "ACTFLscales are applicable."
+#~ msgstr ""
+#~ "Введите уровень автора по шкале CEFR или ACTFL.</br>Используйте опцию "
+#~ "'Other', </br>если ни шкала CEFR, ни ACTFL не применимы."
+
+#~ msgid "scale"
+#~ msgstr "шкала"
+
+#~ msgid "level"
+#~ msgstr "уровень"
+
+#~ msgid "annotation"
+#~ msgstr "аннотация"
+
+#~ msgid "student code"
+#~ msgstr "код студента"
+
+#~ msgid "time limit"
+#~ msgstr "временные ограничения"
+
+#~ msgid "dominant language"
+#~ msgstr "доминантный язык"
+
+#, fuzzy
+#~| msgid "dominant language"
+#~ msgid "Author's dominant language"
+#~ msgstr "доминантный язык"
+
+#~ msgid "full metadata"
+#~ msgstr "метаданные заполнены"
+
+#~ msgid "date displayed"
+#~ msgstr "отображаемая дата"
+
+#~ msgid "text is annotated"
+#~ msgstr "текст размечен"
+
+#~ msgid "text is checked"
+#~ msgstr "текст проверен"
+
+#~ msgid "document"
+#~ msgstr "документ"
+
+#~ msgid "sentence"
+#~ msgstr "предложение"
+
+#~ msgid "annotations"
+#~ msgstr "аннотации"
+
+#~ msgid "token"
+#~ msgstr "токен"
+
+#~ msgid "tokens"
+#~ msgstr "токены"
+
+#~ msgid "analysis"
+#~ msgstr "разбор"
+
+#~ msgid "analyses"
+#~ msgstr "разборы"
+
+#~ msgid "Russian"
+#~ msgstr "русский"
+
+#~ msgid "Please use the calendar view to choose date."
+#~ msgstr "Используйте календарь, чтобы выбрать дату"
+
+#~ msgid "Please enter the news text in Russian."
+#~ msgstr "Введите текст новости на русском языке"
+
+#~ msgid "text in Russian"
+#~ msgstr "текст на русском языке"
+
+#~ msgid "Please enter the news text in English."
+#~ msgstr "Введите текст новости на английском языке"
+
+#~ msgid "text in English"
+#~ msgstr "текст на английском"
+
+#~ msgid "article"
+#~ msgstr "статья"
+
+#~ msgid "articles"
+#~ msgstr "статьи"
+
+#~ msgid "Enter the name of the section in Russian"
+#~ msgstr "Введите текст на русском языке"
+
+#~ msgid "name in Russian"
+#~ msgstr "название на русском языке"
+
+#~ msgid "Enter the name of the section in English"
+#~ msgstr "Введите текст на английском языке"
+
+#~ msgid "name in English"
+#~ msgstr "название на английском языке"
+
+#~ msgid "Please enter the number of the entry on the page"
+#~ msgstr "Введите номер секции на странице"
+
+#~ msgid "entry number"
+#~ msgstr "номер секции"
+
+#~ msgid "section"
+#~ msgstr "секция"
+
+#~ msgid "sections"
+#~ msgstr "секции"
