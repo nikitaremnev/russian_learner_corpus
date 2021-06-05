@@ -57,10 +57,10 @@ class Document(models.Model):
     """
 
     # owner - пользователь, который добавил текст, связан с :models:`auth.User`
-    owner = models.ForeignKey(User, blank=True, null=True, verbose_name=_(u'owner'),
+    owner = models.ForeignKey(User.username, blank=True, null=True, verbose_name=_(u'owner'),
                               help_text=_(u"This is the corpus user who uploads the text to the corpus."
                                           u"Please, make sure that this field displays your login."))
-
+    
     # created - дата и время, когда текст был добавлен
     created = models.DateTimeField(auto_now_add=True, db_index=True)
 
